@@ -1,0 +1,20 @@
+@media only screen and (min-width: 60em){
+    body{
+        
+        max-width: 1000px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    main{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    h1{
+        font-size: 100px;
+    }
+    footer{
+        padding-top: 50px;
+    }
+    
+}
