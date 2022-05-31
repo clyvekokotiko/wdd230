@@ -1,0 +1,44 @@
+@media only screen and (min-width: 37.5em){
+
+    /*body{
+        width: 800px;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        
+    }*/
+
+    #logo{
+        height: 200px;
+    }
+
+
+    .card1, .card2, .card3{
+        padding: 50px;
+        border-bottom: 1px solid #9381ff;
+        border-top: 1px solid #9381ff;
+    }
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    header{
+        width: 100vw;
+    }
+    header nav ul a{
+        display: block;
+        list-style: none;
+        padding: 4px;
+        width: 300px;
+        box-sizing: border-box;
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+}
