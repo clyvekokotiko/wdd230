@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/*NAV section start*/
+nav{
+    background-color: #9F7E69;
+    
+    
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: .8rem 2vw;
+    color: #333;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+.nav-btn{
+    
+    border: none;
+    font-size: 2rem;
+    background-color: transparent;
+    padding: 0;
+    margin: 0.2rem 2vw;
+    
+}
+.nav-btn:hover{
+    font-size: 2.08rem;
+}
+.active a{
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+nav ul{
+    display: none;
+}
+nav ul.open{
+    display: block;
+  
+}
+#hambuger-btn span:nth-child(1){
+    display: block;
+}
+#hambuger-btn span:nth-child(2){
+    display: none;
+}
+#hambuger-btn.open span:nth-child(1){
+    display: none;
+}
+#hambuger-btn.open span:nth-child(2){
+    display: block;
+    transform: rotate(90deg);
+    
+}
+/*NAV section end*/
+
+/*Header start*/
+header{
+    box-sizing: border-box;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+#logo img{
+    height: 3rem;
+    box-sizing: border-box;
+    
+}
+#facebook img{
+    height: 1.8rem;
+    box-sizing: border-box;
+    padding: 3px;
+    
+}
+#linkedIn img{
+    height: 1.8rem;
+    box-sizing: border-box;
+    padding: 3px;
+    
+}
+.header-date #header-date-id{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 10px;
+}
+.header-date{
+    padding: 10px;
+}
+#motto{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+/*Header end*/
+
+/*Footer Start*/
+footer{
+    display: block;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
+    padding: 5px;
+    margin: auto;
+    background-color: #B8B8FF;
+}
+.footer-logo img{
+    height: 6rem;
+}
+iframe{
+    width: 90vw;
+    height: auto;
+}
+/*Footer End*/

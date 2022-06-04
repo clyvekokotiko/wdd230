@@ -37,6 +37,7 @@ header nav ul li a{
 
 .nav li a{
     color: black;
+    display: block;
 }
 
 .nav li:hover{

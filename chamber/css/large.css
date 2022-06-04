@@ -1,0 +1,59 @@
+@media only screen and (min-width: 64rem){
+    nav button{
+        display: none;
+    }
+    nav ul#primary-nav{
+        display: flex;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,0.3);
+        font-size: 1.5rem;
+    }
+
+    nav ul li a{
+        border: none;
+        border-top: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+    }
+    nav ul li a{
+        padding: .5rem 1rem;
+    }
+    #logo {
+        height: 1rem;
+        width: 1rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #logo img{
+        height: 8rem;
+        padding: 10px;
+        margin: 3px;
+    }
+    #nav-div{
+        padding: 10px;
+        margin: 3px;
+    }
+    #facebook, #linkedIn{
+        padding-top: 10px;
+        margin-top: 3px;
+    }
+    .header-wrapper :nth-child(3){
+        order: 4;
+    }
+    .header-wrapper :nth-child(4){
+        order: 3;
+    }
+    #motto{
+        font-family: 'Roboto', sans-serif;
+    }
+    /*Footer Start*/
+    .last-part{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-top: 1px solid rgba(0,0,0,0.3);
+    }
+    /*Footer End*/
+
+}

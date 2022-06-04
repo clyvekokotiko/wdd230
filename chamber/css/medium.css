@@ -1,0 +1,54 @@
+@media only screen and (min-width: 35rem){
+    /*Header Start*/
+    #motto{
+        font-size: 3rem;
+    }
+    .header-wrapper{
+        
+        font-size: 2rem;
+        padding: 4px;
+    }
+    #motto{
+        font-size: 3rem;
+    }
+    nav ul {
+        font-size: 1.3rem;
+    }
+    /*Header End*/
+    /*Footer Start*/
+    #footer{
+        display: grid;
+        grid-template-columns: 45vw 45vw;
+        grid-template-rows: 3fr 1fr;
+        gap: 10px;
+        
+    }
+    .footer-logo{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .map{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .last-part{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin: 0;
+        padding: 0;
+
+    }
+    #google-map{
+        box-sizing: border-box;
+        width: 45vw;
+    }
+    
+
+    /*Footer End*/
+}
