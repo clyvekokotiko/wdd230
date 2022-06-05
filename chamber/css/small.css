@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
+body{
     font-family: 'Roboto', sans-serif;
+    background-color: #F8F7FF;
+   
 }
+
 /*NAV section start*/
 nav{
     background-color: #9F7E69;
@@ -121,6 +124,95 @@ header{
     justify-content: space-between;
 }
 /*Header end*/
+/*------------------------------------------------------------------------------------------------------------------------*/
+
+/*Main Start*/
+.join, #spotlight-3{
+    display: none;
+}
+.hero-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../images/hero\ image.webp");
+    background-repeat: no-repeat;
+    
+    height: 50vw; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    
+    
+    }
+h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 5vw;
+    font-weight: 700;
+    text-shadow: #333;
+    
+}
+
+.hero-banner button{
+    background-color: #9F7E69;
+    border-radius: 10px;
+    width: 7.5rem;
+    height: 2rem;
+    margin: 2vw;
+    
+    
+       
+}
+.hero-banner button a{
+    display: block;
+    text-decoration: none;
+    color: #B8B8FF;
+    font-size: small;
+    
+}
+.event{
+    background-color: #F8F7FF;
+    text-align: center;
+}
+h2{
+    color: #9381FF;
+}
+#book-name{
+    font-weight: 600;
+}
+.weather{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    background-color: #F8F7FF;
+}
+.news-release{
+    background-color: #F8F7FF;
+    text-align: center;
+}
+.spotlights{
+    background-color: #F8F7FF;
+    text-align: center;
+}
+.spotlights div :nth-child(4){
+    padding: 0;
+    margin: 0;
+}
+.spotlights img{
+    height: 100px;
+}
+#weather-widget{
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+
+/*Main End*/
+/*------------------------------------------------------------------------------------------------------------------------*/
 
 /*Footer Start*/
 footer{
