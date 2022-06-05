@@ -1,4 +1,5 @@
 @media only screen and (min-width: 64rem){
+
     nav button{
         display: none;
     }
@@ -48,7 +49,7 @@
     }
     #motto{
         font-family: 'Roboto', sans-serif;
-        
+        padding-left: 15vw;
     }
     /*Footer Start*/
     .last-part{
