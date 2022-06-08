@@ -1,6 +1,7 @@
 @media only screen and (min-width: 64rem){
     body{
-        background-color: #B8B8FF;
+        background-color: #9381FF;
+
     }
 
     nav button{
@@ -61,11 +62,14 @@
         margin-left: 10vw;
         margin-right: 10vw;
         margin-top: 20px;
+        margin-bottom: 20px;
         display: grid;
         grid-template-columns: 15vw 1fr 1fr 15vw;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 10px;
         background-color: #F8F7FF;
+
+
     }
     #spotlight-3{
         display: block;
@@ -110,6 +114,9 @@
         align-items: center;
         text-align: center;
         border-top: 1px solid rgba(0,0,0,0.3);
+    }
+    footer{
+        background-color: #B8B8FF;
     }
     /*Footer End*/
 
