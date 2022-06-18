@@ -1,6 +1,8 @@
 @media only screen and (min-width: 64rem){
     body{
         background-color: #9381FF;
+        margin: 0 auto;
+        width: 97vw;
 
     }
 
@@ -71,6 +73,14 @@
 
 
     }
+    /*.hero-banner{
+        background-image: url("../images/wdd230-800.jpg");
+        background-repeat: no-repeat;
+        height: 50vw; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }*/
     #spotlight-3{
         display: block;
     }

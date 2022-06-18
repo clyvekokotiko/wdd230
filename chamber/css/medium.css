@@ -18,6 +18,14 @@
     /*Header End*/
     /*------------------------------------------------------------------------------------------------------------------------*/
     /*Main Start*/
+    /*.hero-banner{
+        background-image: url("../images/wdd230-500.jpg");
+        background-repeat: no-repeat;
+        height: 50vw; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+    }*/
     h1{
         font-size: 70px;
     }

@@ -2,7 +2,8 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #F8F7FF;
-   
+    padding: 0;
+    
 }
 
 /*NAV section start*/
@@ -130,11 +131,26 @@ header{
 .join, #spotlight-3{
     display: none;
 }
+#weather-icon-wrapper{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+#clouds{
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 5px;
+    font-weight: 800;
+}
+.align-left{
+    text-align: left;
+}
+/*
 .hero-banner{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url("../images/hero\ image.webp");
+    background-image: url("../images/wdd230-250.jpg");
     background-repeat: no-repeat;
     
     height: 50vw; 
@@ -145,15 +161,28 @@ header{
     margin: 0;
     
     
-    }
+    }*/
+.hero-banner picture img{
+    
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    
+    z-index: 1;
+    box-sizing: border-box;
+}
+
 h1{
+    display: block;
     padding: 0;
     margin: 0;
     text-align: center;
-    position: relative;
+    
     top: 5vw;
     font-weight: 700;
     text-shadow: #333;
+    z-index: 2;
+    top: 15rem;
     
 }
 

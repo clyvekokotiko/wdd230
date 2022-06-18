@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Assignment portal for Clyve Kokotiko in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <script async src="js/windchill.js"></script>
+    <script async src="js/scripts.js"></script>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <script async src="https://srv2.weatherwidget.org/js/?id=ww_3955744743e96"></script>
     <title>Bulawayo Chamber of Commerce</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
         <nav>
             <div class="header-wrapper">
                 <div id="logo">
-                    <a href="index.html"><img src="images/171261_weather_icon.png" alt="logo"></a>
+                    <a href="index.html"><img src="images/171261_weather_icon.webp" alt="logo"></a>
                 </div>
                 <div id="motto">
                     <p>Bulawayo Chamber</p>
@@ -49,6 +50,11 @@
     </header>
     <main>
         <div class="hero-banner">
+            <picture>
+                <source srcset="images\wdd230-500.jpg" media="(min-width: 36rem) and (max-width: 64rem)">
+                <source srcset="images\wdd230-800.jpg" media="(min-width: 64rem)">
+                <img src="images\wdd230-250.jpg" alt="hero image" sizes="100vw">
+            </picture>
             <h1>Welcome to Bulawayo</h1>
             <button><a href="#">Join the Chamber</a></button>
         </div>
@@ -64,8 +70,19 @@
         <div class="weather">
             <h2>Weather</h2>
             <div id="weather-widget">
-            
+            <!--
                 <div id="ww_3955744743e96" v='1.20' loc='id' a='{"t":"horizontal","lang":"en","ids":[],"cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"fahrenheit","sl_ics":"one_a","font":"Arial"}'>Weather Data Source: <a href="https://wetterlabs.de/wetter_paris/morgen/" id="ww_3955744743e96_u" target="_blank">Wetter Morgen Paris</a></div>
+            -->
+            <div>
+                <div id="weather-icon-wrapper" >
+                    <img src="images/171261_weather_icon-80.png" alt="weather Icon">
+                    <p><span id="temperature" value="temp">50</span>&#xb0;F</p>
+                </div>
+                <p id="clouds">Partly Cloudy</p>
+                <p class="align-left">Speed: <span id="wind-speed">20</span>mph</p>
+                <p class="align-left">Wind Chill: <span id="wind-chill"></span></p>
+                <div></div>
+            </div>
             </div>
         </div>
         <div class="news-release">
@@ -113,7 +130,7 @@
     </main>
     <footer id="footer">
         <div class="footer-logo">
-            <img src="images/171261_weather_icon.png" alt="Bulawayo Chamber logo">
+            <img src="images/171261_weather_icon.webp" alt="Bulawayo Chamber logo">
             <div>
                 <p>Bulawayo Chamber</p>
                 <p>10 Cnr Street Adress, Bulawayo</p>
@@ -129,6 +146,5 @@
             <p> Last Modified: <span id="last-modified"></span></p>
         </div>
     </footer>
-    <script src="js/scripts.js"></script>
 </body>
 </html>
