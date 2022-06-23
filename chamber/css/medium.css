@@ -35,7 +35,7 @@
         background-color: #9F7E69;
     }
     
-    main{
+    .home-main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: .5fr .3fr .3fr .1fr .5fr;
