@@ -1,0 +1,79 @@
+/*----------------------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Ubuntu", sans-serif ;
+	font-size: 16px ;
+	border-radius: 1em ;
+	margin: 0 ;
+	padding: 0 ;
+}
+
+header {
+	margin: 0 ;
+    display: flex ;
+    justify-content: center ;
+}
+
+footer {
+	padding: 1em ;
+}
+
+header, footer {
+    background-color: rgb( 42, 116, 165 ) ;
+    text-align: center ;
+    color: white ;
+}
+
+main {
+	max-width: 770px ;
+	margin: 0 auto ;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+table {
+    border-collapse: collapse ;
+	margin: 50px auto ;
+	border: thin solid hsl( 0, 0%, 20% ) ;
+	box-shadow: 10px 10px 20px #628ca6 ;
+}
+
+tr:first-child th {
+	background-color: lightcoral ;
+	color: rgb( 0, 0, 0 ) ;
+}
+
+th, td {
+	padding: 7px 15px ;
+	border: 1px solid hsl( 0, 0%, 33% ) ;
+}
+
+th {
+	background-color: #247BA0 ;
+    color: #FFF;
+}
+
+td {
+	text-align: center ;
+}
+
+tbody tr:nth-child( even ) {
+	background-color: rgb( 219, 241, 230 ) ;
+}
+
+tbody tr:nth-child( odd ) {
+	background-color: rgb( 233, 232, 232 ) ;
+}
+
+.diff {
+	background-color: #247BA0 ;
+    color: #FFF ;
+}
+
+.cursive {
+    font-style: italic ;
+}
+
+tfoot {
+	background-color: lightcoral ;
+	font-size: 12px ;
+}
