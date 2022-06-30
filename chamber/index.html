@@ -7,6 +7,7 @@
     <meta name="description" content="Assignment portal for Clyve Kokotiko in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
     <script async src="js/windchill.js"></script>
     <script async src="js/scripts.js"></script>
+    <script src="js/weatherapi.js" defer></script>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -75,8 +76,8 @@
             -->
             <div>
                 <div id="weather-icon-wrapper" >
-                    <img src="images/171261_weather_icon-80.png" alt="weather Icon">
-                    <p><span id="temperature" value="temp">50</span>&#xb0;F</p>
+                    <img id="weather-icon" src="images/171261_weather_icon-80.png" alt="weather Icon">
+                    <p><span id="temperature" value="temp"></span>&#xb0;F</p>
                 </div>
                 <p id="clouds">Partly Cloudy</p>
                 <p class="align-left">Speed: <span id="wind-speed">20</span>mph</p>
