@@ -37,10 +37,10 @@
                     <button id="hambuger-btn" class = "nav-btn"><span>&#9776;</span><span>&#9776;</span></button>
                     <ul id="primary-nav">
                         <li ><a href= "index.html">Home</a></li>
-                        <li class="active"><a href= "discover.html">Discover</a></li>
+                        <li ><a href= "discover.html">Discover</a></li>
                         <li><a href= "directory.html">Directory</a></li>
-                        <li><a href= "join.html">Join</a></li>
-                        <li><a href= "contact.html">Contact</a></li>
+                        <li ><a href= "join.html">Join</a></li>
+                        <li class="active"><a href= "contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -49,51 +49,26 @@
             </div>
         </nav>
     </header>
-    <main>
-        <div class="discover">
-            <div class="message"></div>
-            <picture>
+    <main id="join_form_page">
+        <div class="form_container">
+            <h1 class="form_title">Contact us</h1>
+            <form method="get" action="thankyou.html">
+                 <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label class="top">First Name* <input type="text" name="fname" required="required"></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required="required"></label>
+                    <label class="top">Email* <input type="email" name="email" placeholder="example@mail.com" required="required"></label>
+                </fieldset>
                 
-                
-                <img id="house" src="https://via.placeholder.com/300x400" data-src="images/houses-960.jpg" alt="Houses" >
-            </picture>
-            <p>Check out the nice houses in Bulawayo - what people call HOME!</p>
-
-            <picture>
-                
-                <img id="industry" src="https://via.placeholder.com/300x400" data-src="images/industry-960.jpg" alt="industry">
-            </picture>
-            <p>This is where all the goods are manufactured</p>
-
-            <picture>
-               
-                <img id="food" src="https://via.placeholder.com/300x400" data-src="images/food-960.jpg" alt="food" >
-            </picture>
-            <p>You can smell the food from the picture. Yummy!</p>
-
-            <picture>
-                
-                <img id="river" src="https://via.placeholder.com/300x400" data-src="images/river-960.jpg" alt="river" >
-            </picture>
-            <p>Lets not forget the wonders of the city -- Breathtaking!</p>
-
-            <picture>               
-                <img id="sports" src="https://via.placeholder.com/300x400" data-src="images/sports-960.jpg" alt="sports" >
-            </picture>
-            <p>You into sports, we got you</p>
-            <div class="demographics">
-                <p id="demo">Bulawayo Demographics</p>
-                <p>
-                    The city of Kings -Bulawayo- is the second largest city in Zimbabwe. People here speak an nice language called "Ndebele" or rather 
-                    "Isindebele". <br>The city is located south-west of the country and it is its own province. <br>
-                    According to <a href="https://en.wikipedia.org/wiki/Bulawayo">Wikipedia</a>: <br>
-                    The city's population is disputed; the 2012 census listed it at 653,337, while the Bulawayo City Council claimed it to be about 1.2 million. Bulawayo covers an area of about 1,707 square kilometres (659 square miles) in the western part of the country, along the Matsheumhlope River. Along with the capital Harare, Bulawayo is one of two cities in Zimbabwe that is also a province.
-                </p>
-            </div>
+                <fieldset>
+                    <legend>Bussines Description</legend>
+                    <textarea name="area" id="description" cols="1" rows="10" placeholder="Type Here..."></textarea>
+                </fieldset>
+                <input type="hidden" id="full.datev" name="full-date" value="">
+                <input type="submit" value="Send my Message" class="submitbtn">
+            </form>
         </div>
         
-
-
     </main>
     <footer id="footer">
         <div class="footer-logo">
