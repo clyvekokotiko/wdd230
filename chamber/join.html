@@ -8,6 +8,7 @@
     <script async src="js/lazyloading.js"></script>
     <script  src="js/scripts.js" defer></script>
     <script async src="js/lastvisited.js"></script>
+    <script src="js/hiddendatetime.js" defer></script>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -57,7 +58,7 @@
                     <legend>Applicant Information</legend>
                     <label class="top">First Name* <input type="text" name="fname" required="required"></label>
                     <label class="top">Last Name* <input type="text" name="lname" required="required"></label>
-                    <label class="top">Bussines Position Title <input type="text" minlength="7"></label>
+                    <label class="top">Bussines Position Title <input type="text" minlength="7"  pattern="([a-zA-Z -]+{7, 25}]"></label>
                     <label class="top">Email* <input type="email" name="email" placeholder="example@mail.com" required="required"></label>
                     <label class="top">Phone* <input type="tel" minlength="7" name="phone" placeholder="1234567890" required></label>
                     <label class="top">Bussines Title* <input type="text" name="bussines" required="required"></label>
@@ -71,7 +72,9 @@
                 </fieldset>
                 <fieldset>
                     <legend>Bussines Description</legend>
-                    <textarea name="area" id="description" cols="1" rows="10" placeholder="Type Here..."></textarea>
+                    <label ><textarea name="area" id="description" cols="1" rows="10" placeholder="Type Here..."></textarea></label>
+                    <label ><input type="hidden" id="date" name="date" value="CurrentTime"></label> 
+                    <label><input type="hidden" id="time" name="time" value="CurrentDate"></label>
                 </fieldset>
                 <input type="hidden" id="full.datev" name="full-date" value="">
                 <input type="submit" value="Send my Appication" class="submitbtn">
