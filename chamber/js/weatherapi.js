@@ -1,10 +1,11 @@
 const currentTemp = document.querySelector( "#temperature" ) ;
 const weatherIcon = document.querySelector( "#weather-icon" ) ;
-const captionDesc = document.querySelector( "figcaption" ) ;
+const captionDesc = document.querySelector( "#figcaption" ) ;
+const windSpeed = document.querySelector("#wind-speed") ;
+
 const url = "https://api.openweathermap.org/data/2.5/weather?q=bulawayo&units=imperial&appid=28e9fe34a522ddf793bc5833201ecfa0" ;
 
 
-//28e9fe34a522ddf793bc5833201ecfa0
 apiFetch() ;
 
 async function apiFetch() {
@@ -23,6 +24,7 @@ async function apiFetch() {
 
 function displayResults( weatherData ) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed( 0 )}</strong>` ;
+    windSpeed.innerHTML = `<strong>${weatherData.wind.speed.toFixed( 0 )}</strong>` ; // wind speed
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png` ;
     let desc = weatherData.weather[0].description ;
     weatherIcon.setAttribute( "src", iconsrc ) ;
