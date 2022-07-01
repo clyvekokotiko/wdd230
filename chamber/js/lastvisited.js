@@ -2,7 +2,7 @@ function getLastVisit() {
     let today = Date.now();
     let mili = 86400000
     let visited = localStorage.getItem("lastVisit");
-    let calculateDate = ((today - visited) / mili).toFixed(1);
+    let calculateDate = ((today - visited) / mili).toFixed();
 
     let welcome;
     if (!visited) {
