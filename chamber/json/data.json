@@ -1,81 +1,81 @@
 {
     "businesses": [
       {
-        "image": "../images/food-300.jpg",
-        "img-alt": "GMC",
-        "name": "John Adams GMC",
-        "address": "890 W Main St, Rexburg, ID 83440",
-        "phone": "(208) 881-9075",
-        "website": "https://www.johnadamsgmc.com/"
+        "image": "https://i0.wp.com/choppies.co.zw/wp-content/uploads/2016/05/hyper.jpg?resize=500%2C332&ssl=1",
+        "img-alt": "Choppies",
+        "name": "Choppies Bulawayo",
+        "address": "120 Main St, Bulawayo",
+        "phone": "(263) 000-0000",
+        "website": "#"
       },
       {
-        "image": "../images/MadMem.jpg",
-        "img-alt": "Madison Memorial Hospital",
-        "name": "Madison Memorial Hospital",
-        "address": "450 E Main St, Rexburg, ID 83440",
-        "phone": "(208) 359-6900",
-        "website": "https://madisonmemorial.org/"
+        "image": "https://i0.wp.com/choppies.co.zw/wp-content/uploads/2016/05/hyper.jpg?resize=500%2C332&ssl=1",
+        "img-alt": "Mpilo Hospital",
+        "name": "Mpilo Hospital",
+        "address": "121 Main St, Bulawayo",
+        "phone": "(263) 000-0000",
+        "website": "#"
       },
       {
-        "image": "../images/famcenter.png",
-        "img-alt": "Family Crisis Center",
-        "name": "Family Crisis Center",
-        "address": "16 E Main St, Rexburg, ID 83440",
-        "phone": "(208) 356-0065",
-        "website": "https://familycrisiscenter.wixsite.com/familycrisiscenter"
+        "image": "https://i0.wp.com/choppies.co.zw/wp-content/uploads/2016/05/hyper.jpg?resize=500%2C332&ssl=1",
+        "img-alt": "Perfect Print",
+        "name": "Perfect Print",
+        "address": "122 Main St, Bulawayo",
+        "phone": "(263) 000-0000",
+        "website": "#"
       },
       {
-        "image": "../images/broulims.jpg",
-        "img-alt": "Broulim's",
-        "name": "Broulims",
-        "address": "124 W Main St, Rexburg, ID 83440",
-        "phone": "(208) 356-4651",
-        "website": "https://www.broulims.com/"
-      },
-
-      {
-        "image": "../images/fatcats.jpg",
-        "img-alt": "Fatcats",
-        "name": "Fatcats All Out Fun",
-        "address": "475 N 2nd E St, Rexburg, ID 83440",
-        "phone": "(208) 359-2600",
-        "website": "https://www.fatcatsfun.com/rexburg"
+        "image": "https://i0.wp.com/choppies.co.zw/wp-content/uploads/2016/05/hyper.jpg?resize=500%2C332&ssl=1",
+        "img-alt": "Trazillo",
+        "name": "Trazillo",
+        "address": "123 Main St, Bulawayo",
+        "phone": "(263) 000-0000",
+        "website": "#"
       },
 
       {
-        "image": "../images/hickory.jpg",
-        "img-alt": "The Hickory",
-        "name": "The Hickory",
-        "address": "485 N 2nd E, Rexburg, ID 83440",
-        "phone": "(208) 359-2328",
-        "website": "https://www.thehickorybbq.com/"
+        "image": "https://i0.wp.com/choppies.co.zw/wp-content/uploads/2016/05/hyper.jpg?resize=500%2C332&ssl=1",
+        "img-alt": "Pick 'n' Pay",
+        "name": "Pick 'n' Pay",
+        "address": "124 Main St, Bulawayo",
+        "phone": "(263) 000-0000",
+        "website": "#"
       },
 
       {
-        "image": "../images/gsdairy.jpg",
-        "img-alt": "G's Dairy Delights",
-        "name": "G's Dairy Delights",
-        "address": "600 Handcart Ln, Rexburg, ID 83440",
-        "phone": "(208) 359-5443",
-        "website": "https://www.facebook.com/gsdairydelights/"
+        "image": "https://i0.wp.com/choppies.co.zw/wp-content/uploads/2016/05/hyper.jpg?resize=500%2C332&ssl=1",
+        "img-alt": "OK",
+        "name": "OK",
+        "address": "125 Main St, Bulawayo",
+        "phone": "(263) 000-0000",
+        "website": "#"
       },
 
       {
-        "image": "../images/tetonlakes.jpg",
-        "img-alt": "Teton Lakes Golf Course",
-        "name": "Teton Lakes Golf Course",
-        "address": "722 N 12th W, Rexburg, ID 83440",
-        "phone": "(208) 359-3036",
-        "website": "https://www.tetonlakesgc.com/"
+        "image": "https://i0.wp.com/choppies.co.zw/wp-content/uploads/2016/05/hyper.jpg?resize=500%2C332&ssl=1",
+        "img-alt": "Huawlets",
+        "name": "Huawlets",
+        "address": "126 Main St, Bulawayo",
+        "phone": "(263) 000-0000",
+        "website": "#"
       },
 
       {
-        "image": "../images/vetclinic.png",
-        "img-alt": "Upper Valley Veterinary Clinic",
-        "name": "Upper Valley Veterinary Clinic",
-        "address": "840 N 2nd E #1, Rexburg, ID 83440",
-        "phone": "(208) 356-4271",
-        "website": "https://www.uppervalleyvet.com/"
+        "image": "https://i0.wp.com/choppies.co.zw/wp-content/uploads/2016/05/hyper.jpg?resize=500%2C332&ssl=1",
+        "img-alt": "Zinana",
+        "name": "Zinana",
+        "address": "127 Main St, Bulawayo",
+        "phone": "(263) 000-0000",
+        "website": "#"
+      },
+
+      {
+        "image": "https://i0.wp.com/choppies.co.zw/wp-content/uploads/2016/05/hyper.jpg?resize=500%2C332&ssl=1",
+        "img-alt": "Orange burt",
+        "name": "Orange burt",
+        "address": "128 Main St, Bulawayo",
+        "phone": "(263) 000-0000",
+        "website": "#"
       }
     ]
   }
