@@ -145,23 +145,7 @@ header{
 .align-left{
     text-align: left;
 }
-/*
-.hero-banner{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-image: url("../images/wdd230-250.jpg");
-    background-repeat: no-repeat;
-    
-    height: 50vw; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-    
-    
-    }*/
+
 .hero-banner picture img{
     
     padding: 0;
@@ -367,7 +351,7 @@ h2{
     margin: 1rem auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
-    background-color: #00B4D8;
+    background-color: #F8F7FF;
     text-align: center;
 }
 
@@ -385,10 +369,22 @@ h2{
     width: 60%;
     height: 50%;
 }
+.imgContainer img{
+    display: block;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 article {
     margin: auto;
     display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .cards a {
@@ -427,22 +423,27 @@ article {
 .cards {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    
 }
 
 .menu {
     margin: 1rem auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
-    background-color: #00B4D8;
+    background-color: rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .menu button {
     padding: 1rem;
     align-content: center;
+}
+section{
+    border: 3px solid #9F7E69;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 
@@ -481,7 +482,7 @@ article {
 }
 
 .list section img {
-    display: none;
+    width: 0rem;
     /* smaller viewports only */
 }
 
