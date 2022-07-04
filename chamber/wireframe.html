@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment portal for Clyve Kokotiko in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <script async src="js/lazyloading.js"></script>
+    <script  src="js/scripts.js" defer></script>
+    <script async src="js/lastvisited.js"></script>
+    <script src="js/directory.js" defer></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Bulawayo Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="header-wrapper">
+                <div id="logo">
+                    <a href="index.html"><img src="images/171261_weather_icon.webp" alt="logo"></a>
+                </div>
+                <div id="motto">
+                    <p>Bulawayo Chamber</p>
+                </div>
+                <div class="icons">
+                    <div id="facebook">
+                        <a href="facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+                    </div>
+                    <div id="linkedIn">
+                        <a href="https://linkedin.com/in/clyve-kokotiko"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+                <div id="nav-div">
+                    <button id="hambuger-btn" class = "nav-btn"><span>&#9776;</span><span>&#9776;</span></button>
+                    <ul id="primary-nav">
+                        <li ><a href= "index.html">Home</a></li>
+                        <li ><a href= "discover.html">Discover</a></li>
+                        <li class="active"><a href= "directory.html">Directory</a></li>
+                        <li><a href= "join.html">Join</a></li>
+                        <li><a href= "contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-date">
+                <span id="header-date-id"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Wireframes for Directory Page</h1>
+        <div class="wire">
+           <div id="small">
+            <h3>Small View</h3>
+            <img src="images/small_0001.jpg" alt="small">
+           </div>
+           <div id="medium">
+            <h3>Medium View</h3>
+            <img src="images/medium_0001.jpg" alt="medium">
+           </div>
+           <div id="large">
+            <h3>Large View</h3>
+            <img src="images/large_0001.jpg" alt="large">
+           </div>
+        </div>
+    </main>
+    
+    <footer id="footer">
+        <div class="footer-logo">
+            <img src="images/171261_weather_icon.webp" alt="Bulawayo Chamber logo">
+            <div>
+                <p>Bulawayo Chamber</p>
+                <p>10 Cnr Street Adress, Bulawayo</p>
+            </div>
+        </div>
+        <div class="map">
+            <p>info@bulawayochamber.org</p>
+            <p>+(263) xxx xxx xxx</p>
+            <iframe id= "google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.5288737238498!2d28.580462114707313!3d-20.15369345050827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eb55518a46e9ba1%3A0xe3e86540afc93c9c!2sPerfect%20Print!5e0!3m2!1sen!2szw!4v1654374408458!5m2!1sen!2szw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="last-part">
+            <p>&copy;2022 Bulawayo Chamber | Clyve Kokotiko | WDD 230 Project |</p>
+            <p> Last Modified: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
