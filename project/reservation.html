@@ -33,20 +33,44 @@
             </div>
         </nav>
         <div class="text-box">
-            <h1>Temple Inn & Suites</h1>
-            <p>We are here to make your Temple trip smooth and nice. </p>
-            <a href="#" class="reservation-hero">Make a Reservation</a>
+            <h1>Reservation</h1>
+            <p>Lets quickly have you sorted!</p>
+            <p>Scroll down!</p>
+            
         </div>
     </header>
     <main>
-        <section class="section-home-1">
-           <div>
-                <img src="images/logo1.jpg" alt="temple">
-            </div>
-            <div>
-                <h2>Your Temple</h2>
-                <p>Did you know that the Johannesburg temple was anounced the 1st of April 1981and was dedicated August 24, 1985? </p>
-            </div>
+        <section id="join_form_page">
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                   <legend>Applicant Information</legend>
+                   <label class="top">First Name* <input type="text" name="fname" required="required"></label>
+                   <label class="top">Last Name* <input type="text" name="lname" required="required"></label>
+                   <!-- <label class="top">Bussines Position Title <input type="text" minlength="7"  pattern="([a-zA-Z -]+{7, 25}]"></label> -->
+                   <label class="top">Email* <input type="email" name="email" placeholder="example@mail.com" required="required"></label>
+                   <label class="top">Phone* <input type="tel" minlength="7" name="phone" placeholder="1234567890" required></label>
+                   <label class="top">Rooms* <input type="number" name="quantity" placeholder="2" min="1" max="5" required></label>
+                   <label class="top">Country or State* <input type="country" name="country" placeholder="Zimbabwe" required></label>
+                   <label class="top">Date for resevation* <input type="date" name="date" required></label>
+
+               </fieldset>
+               <fieldset>
+                   <legend>Choose one Type of Room you would like</legend>
+                   <label class="chose"><input type="radio" name="membership">Economy</label>
+                   <label class="chose"><input type="radio" name="membership">Presidential</label>
+                   <label class="chose"><input type="radio" name="membership">Disabled</label>
+               </fieldset>
+               <fieldset>
+                   <legend>Your Thoughts and Comments</legend>
+                   <label ><textarea name="area" id="description" cols="1" rows="10" placeholder="Type Here..."></textarea></label>
+                   <label ><input type="hidden" id="date" name="date" value="CurrentTime"></label> 
+                   <label><input type="hidden" id="time" name="time" value="CurrentDate"></label>
+               </fieldset>
+               <input type="hidden" id="full.datev" name="full-date" value="">
+               <input type="submit" value="Make a Reservation" class="submitbtn">
+           </form>
+       </div>
+       
         </section>
 
 

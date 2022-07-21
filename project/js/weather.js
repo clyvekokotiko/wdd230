@@ -2,7 +2,7 @@ const currentTemp = document.querySelector( "#temperature" ) ;
 const weatherIcon = document.querySelector( "#weather-icon" ) ;
 const captionDesc = document.querySelector( "#figcaption" ) ;
 const windSpeed = document.querySelector("#wind-speed") ;
-const windChill = document.querySelector("#wind-chill") ;
+const humidity = document.querySelector("#humidity") ;
 
 const url = "https://api.openweathermap.org/data/2.5/weather?q=bulawayo&units=imperial&appid=28e9fe34a522ddf793bc5833201ecfa0" ;
 
@@ -33,23 +33,10 @@ function displayResults( weatherData ) {
     desc = desc.toLowerCase().replace( /\b[a-z]/g, UpperCase ) ;
     captionDesc.textContent = desc ;
 
-    //windchill
+    
     let windSpd = weatherData.wind.speed;
     let temp = weatherData.main.temp;
-    if (windSpd > 3 && temp <= 50){
-    
-        calculateWindChill(temp, windSpd);   
-    } 
-    else{
-        document.querySelector("#wind-chill").innerHTML = `N/A`;
-    }
-    // console.log(windSpeed);
-    function calculateWindChill(temp, windSpeed){
-        let windChill = 35.74 + 0.6215 * temp - 35.75 * (Math.pow(windSpeed, 0.16) ) + 0.4275 * temp * (Math.pow(windSpeed, 0.16));
-        // console.log("function is called!");
-        // console.log(windChill);
-        document.querySelector("#wind-chill").innerHTML = `${windChill.toFixed(2)}`;
-    }
+    humidity.innerHTML = `<strong>${weatherData.current.humidity.toFixed( 0 )}</strong>` ;
 }
 
 function UpperCase( letter ) {
