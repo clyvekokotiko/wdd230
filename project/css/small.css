@@ -136,6 +136,7 @@ main{
     
     box-sizing: border-box;
     margin: auto;
+    margin-top: 10%;
     
 }
 
@@ -214,8 +215,34 @@ input.submitbtn:hover {
 }
 
 .full-page{
-    height: 70vh;
+    min-height: 70vh;
     text-align: center;
     justify-content: center;
-    
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.cards{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.reception-services {
+    display: grid;
+    gap: 20px;
+}
+.top-message{
+    padding: 10px;
+    font-size: 1.4rem;
+    margin-bottom: 5%;
+}
+.cards:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.full-page img{
+    width: 100%;
+}
+.shadow:hover{
+    display: block;
+    box-shadow: black;
+    border-top: 2px solid #F05D5E;
+}
+.weather {
+    font-size: 16px;
 }

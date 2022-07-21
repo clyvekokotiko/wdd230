@@ -5,6 +5,19 @@
     h1{
         font-size: 62px;
     }
+    .reception-services{
+        grid-template-columns: 1fr 1fr;
+    }
 
-    
+    .full-page img{
+        width: auto;
+    }
+    .section-home-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #weather-widget{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

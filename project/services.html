@@ -36,27 +36,78 @@
             <h1>Services</h1>
             <p>Check out the Services we offer</p>
             <p>Scroll Down</p>
-            <a href="#" class="reservation-hero">Make a Reservation</a>
+            <a href="reservation.html" class="reservation-hero">Make a Reservation</a>
         </div>
     </header>
     <main>
         <section class="Reception full-page">
-           <div>
-                <img src="images/logo1.jpg" alt="temple">
-            </div>
-            <div>
+           
+            <div class="top-message">
                 <h2>Reception</h2>
-                <p>We have a team always ready to serve you.  </p>
+                <p>We have a team always ready to serve you.</p>
+            </div>
+            <div class="reception-services">
+                <div class="cards">
+                    <h3>Weddings</h3>
+                    <img src="images/wedding.jpg" alt="wedding">
+                    <p>We have accomadations and a nice place for such wonderful events.</p>
+                </div>
+                <div class="cards">
+                    <h3>Food</h3>
+                    <img src="images/food.jpg" alt="food">
+                    <p>Need a catering club? We got you covered</p>
+                </div>
+                <div class="cards">
+                    <h3>Setting Up</h3>
+                    <img src="images/sound.jpg" alt="sound system">
+                    <p>We even can help you set up the sound system, cameras and so forth</p>
+                </div>
             </div>
         </section>
         <section class="missionary full-page">
-            <div>
-                 <img src="images/logo1.jpg" alt="temple">
-             </div>
-             <div>
-                 <h2>Your Temple</h2>
-                 <p>Did you know that the Johannesburg temple was anounced the 1st of April 1981and was dedicated August 24, 1985? </p>
-             </div>
+            <div class="top-message">
+                <h2>Full Time Temple Missionary</h2>
+                <p>We have a team always ready to serve you.</p>
+            </div>
+             <div class="reception-services">
+                <div class="cards">
+                    <h3>Single Rooms</h3>
+                    <img src="images/wedding.jpg" alt="wedding">
+                    <p>Select a room suit just for your needs</p>
+
+                </div>
+                <div class="cards">
+                    <h3>Double Rooms</h3>
+                    <img src="images/food.jpg" alt="food">
+                    <p>separate beds provided</p>
+                </div>
+                <div class="cards">
+                    <h3>Trio</h3>
+                    <img src="images/sound.jpg" alt="sound system">
+                    <p>Lets not forget about trios!</p>
+                </div>
+            </div>
+         </section>
+
+         <section>
+            <div class="form_container">
+                <h3 class="form_title">Contact us</h3>
+                <form method="get" action="thankyou.html">
+                     <fieldset>
+                        <legend>Applicant Information</legend>
+                        <label class="top">First Name* <input type="text" name="fname" required="required"></label>
+                        <label class="top">Last Name* <input type="text" name="lname" required="required"></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="example@mail.com" required="required"></label>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Bussines Description</legend>
+                        <textarea name="area" id="description" cols="1" rows="10" placeholder="Type Here..."></textarea>
+                    </fieldset>
+                    <input type="hidden" id="full.datev" name="full-date" value="">
+                    <input type="submit" value="Send my Message" class="submitbtn">
+                </form>
+            </div>
          </section>
 
 
