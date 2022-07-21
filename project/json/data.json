@@ -1,0 +1,32 @@
+{
+    "temples": [
+      {
+        "image": "https://assets.ldscdn.org/b3/1f/b31f8fc3892ce063cfbd0607cd53980290fcc0ae/aba_nigeria_temple_lds.jpeg",
+        "img-alt": "Aba Nigeria Temple",
+        "name": "Aba Nigeria Temple",
+        "location": "Aba, Abia, Nigeria",
+        "dedicated": "7 August 2005"
+      },
+      {
+        "image": "https://assets.ldscdn.org/7f/a0/7fa087c304703b26ff57f08a01b138607d7d615c1118834/rendering_abidjan_ivory_coast_temple.jpeg",
+        "img-alt": "Abidjan Ivory Coast Temple",
+        "name": "Abidjan Ivory Coast Temple",
+        "location": "Abidjan, Ivory Coast",
+        "dedicated": "Construction"
+      },
+      {
+        "image": "https://assets.ldscdn.org/87/5d/875db78e8219c9c6f476fd0fd88f444b986a0d0f/accra_ghana_temple_lds.jpeg",
+        "img-alt": "Accra Ghana Temple",
+        "name": "Accra Ghana Temple",
+        "location": "Accra, Greater Accra, Ghana",
+        "dedicated": "11 January 2004"
+      },
+      {
+        "image": "https://assets.ldscdn.org/e9/bd/e9bd6df8906a98026e04cd747c4b5c9d78abb7e4/adelaide_australia_temple.jpeg",
+        "img-alt": "Adelaide Australia Temple",
+        "name": "Adelaide Australia Temple",
+        "location": "Marden, South Australia, Australia",
+        "dedicated": "15 June 2000"
+      }
+    ]
+  }

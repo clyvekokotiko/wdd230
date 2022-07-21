@@ -20,4 +20,20 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    article {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        
+    }
+    .list section img {
+        width: 3.2rem;
+        
+    }
+    /*Medium*/
+    .wire div img{
+        width: 350px;
+    }
 }
