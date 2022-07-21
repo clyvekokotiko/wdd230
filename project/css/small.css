@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo{
+    height: 50px;
+}
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #F05D5E;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+h1{
+    font-size: 20px;
+}
+.text-box p{
+    margin: 10px 0 40 px;
+    font-size: 14px;
+    color: white;
+}
+.reservation-hero{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    margin-top: 15px;
+}
+.reservation-hero:hover{
+    border: 1px solid #F05D5E;
+    background: #F05D5E;
+    transition: 1s;
+}
+@media(max-width: 64rem){
+    .nav-closed{
+        display: none;
+    }
+    .open{
+        display: flex;
+        flex-direction: column;
+    }
+    .social-media{
+        display: none;
+    }
+}
+
+#hambuger-btn{
+    background: transparent;
+    
+    border: none;
+}
+#hambuger-btn span{
+  
+    font-size: 40px;
+}
+.active{
+    background-color: rgba(0,0,0,0.2);
+}
+.social-media img{
+    height: 20px;
+}
+/*Footer*/
+#maps{
+    width: 90vw;
+    margin: auto;
+}
+#maps iframe{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
